@@ -1,0 +1,126 @@
+\documentclass[a4paper,11pt]{article}
+
+\usepackage[italian]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{tabularx}
+\usepackage{graphicx}
+
+
+\geometry{margin=2cm}
+
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+
+\setlength{\parindent}{0pt}
+
+\begin{document}
+
+%--------------------
+% INTESTAZIONE CON FOTO
+%--------------------
+\begin{tabularx}{\textwidth}{l X}
+\begin{minipage}[t]{0.28\textwidth}
+    \vspace{0pt}
+    \includegraphics[width=3.5cm]{/home/agata/Documents/latex/foto_cv.jpg}
+\end{minipage}
+&
+\begin{minipage}[t]{0.7\textwidth}
+    \vspace{0pt}
+    {\LARGE \textbf{Agata Rocchini}}\\[0.2cm]
+
+        \textbf{Indirizzo:} Bologna (40131), Italia\\
+        \textbf{Telefono:} +39 345 616 7048\\
+        \textbf{Email:} \href{mailto:agataroc@gmail.com}{agataroc@gmail.com}\\
+        \textbf{Data di nascita:} 04/10/2006
+    \end{minipage}
+\end{tabularx}
+
+\vspace{0.5cm}
+
+%--------------------
+% PROFILO
+%--------------------
+\section*{Profilo}
+Studentessa universitaria motivata e dinamica, con forte spirito di squadra e ottime capacità relazionali.
+Esperienza in contesti di lavoro informali a contatto con il pubblico, background internazionale e grande passione per lo sport e la musica.
+
+%--------------------
+% FORMAZIONE
+%--------------------
+\section*{Formazione}
+
+\begin{tabularx}{\textwidth}{l X}
+\textit{In corso} & \textbf{Laurea in Ingegneria dell'Automazione} \ Università di Bologna \\[0.2cm]
+
+\textit{2025}     & \textbf{Diploma di Istruzione Secondaria} \ Liceo scientifico Augusto Righi\\
+\end{tabularx}
+
+%--------------------
+% ESPERIENZE
+%--------------------
+\section*{Esperienze rilevanti}
+\textbf{Servizio bar e catering – Contrada Capitana dell'Onda, Siena} \\
+\textit{Attività volontaria}
+\begin{itemize}[noitemsep]
+    \item Servizio al banco bar e durante cene ed eventi
+    \item Gestione del contatto con il pubblico
+    \item Lavoro in squadra in ambienti dinamici
+\end{itemize}
+
+\textbf{\href{https://www.motorsport.unibo.it}{UniBo Motorsport}} -- {Reparto Elettronica}
+
+\begin{itemize}[noitemsep]
+    \item Supporto alla programmazione del Battery Management System (BMS) su microcontrollore STM32
+    \item Attività di assemblaggio e cablaggio dell'impianto elettrico della vettura
+    \item Collaborazione con un team multidisciplinare in ambito motorsport
+\end{itemize}
+
+%--------------------
+% ESPERIENZA INTERNAZIONALE
+%--------------------
+\section*{Esperienze internazionali}
+\textbf{Percorso di istruzione all'estero – Nuova Zelanda} \\
+\textit{2023}
+\begin{itemize}[noitemsep]
+    \item Permanenza di tre mesi presso una famiglia ospitante con immersione linguistica e culturale
+    \item Frequenza di istituto di istruzione secondaria superiore con attività didattiche svolte in lingua inglese
+\end{itemize}
+
+%--------------------
+% COMPETENZE
+%--------------------
+\section*{Competenze}
+\textbf{Lingue}
+\begin{itemize}[noitemsep]
+    \item Inglese: livello C1 (avanzato) certificato da Cambridge English
+\end{itemize}
+
+\textbf{Competenze trasversali}
+\begin{itemize}[noitemsep]
+    \item Lavoro di squadra
+    \item Affidabilità e spirito di iniziativa
+    \item Resistenza allo stress
+\end{itemize}
+
+%--------------------
+% INTERESSI
+%--------------------
+\section*{Attività e interessi}
+\begin{itemize}[noitemsep]
+    \item Musica: bassista della una band pop-rock bolognese \textit{\href{https://open.spotify.com/intl-it/artist/19FNXshR3pT5kqNoZ0HNMw?si=x-zhnzYdR_ODpyBLZJ8kiw}{Mole Cricket}}  \\ \small{(https://open.spotify.com/intl-it/artist/19FNXshR3pT5kqNoZ0HNMw?si=LGcaZeYxSk-z46iV6bHgiA)}
+    \item Arrampicata sportiva
+\end{itemize}
+
+
+\vspace*{\fill}
+\hfill \noindent 22 gennaio 2026
+
+\vspace*{4cm}
+\footnotesize
+Autorizzo il trattamento dei dati personali ai sensi del Regolamento UE 2016/679 (GDPR).
+
+\end{document}
